@@ -1,5 +1,5 @@
 from openai import OpenAI
-from openAIKey import OpenAI_Key
+from OpenAI.openAIKey import OpenAI_Key
 
 # Initialize OpenAI client
 client = OpenAI(api_key=OpenAI_Key)
@@ -11,7 +11,7 @@ def get_image_url(alegria, tristeza, miedo, enojo, asco, sorpresa):
         model="dall-e-2",
         image=open("Images/dog.png", "rb"),
         mask=open("Images/mask_dog.png", "rb"),
-        prompt="´Perro animado con las siguientes emociones en porcentajes: "
+        prompt="Perro animado con las siguientes emociones en porcentajes: "
         f"${alegria} alegria, "
         f"${tristeza} tristeza, "
         f"${miedo} miedo, "

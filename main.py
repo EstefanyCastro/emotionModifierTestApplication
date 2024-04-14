@@ -1,8 +1,8 @@
 from tkinter import Tk
-from gui import GUI
+from GUI.GUI import GUI
 
 
-class MainGUI:
+class Main:
     def __init__(self):
         gui = Tk()
         app = GUI(gui)
@@ -11,4 +11,4 @@ class MainGUI:
 
 # Create the main GUI
 if __name__ == "__main__":
-    MainGUI()
+    Main()

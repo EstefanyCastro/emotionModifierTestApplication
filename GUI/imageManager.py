@@ -1,6 +1,6 @@
 import requests
 from PIL import Image, ImageTk
-from DALLEConnection import get_image_url
+from OpenAI.DALLEConnection import get_image_url
 
 
 class ImageManager:
@@ -12,7 +12,7 @@ class ImageManager:
         return resized_default_image
 
     @staticmethod
-    # Get a new image edit by DALLE based on the response from the API
+    # Get a new image edit by DALLE based on the response from the toolkit
     def get_new_image(response):
         generated_image_url = get_image_url(
             alegria=response[0],
