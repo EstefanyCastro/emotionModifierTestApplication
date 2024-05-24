@@ -1,4 +1,4 @@
-# Virtual Pet Emotional
+# Emotional virtual pet
 
 This project is a Python desktop application that simulates a virtual emotional dog. The application is based on an emotional management toolkit that allows you to interact with the dog and observe how its emotions change in response to different interactions.
 
