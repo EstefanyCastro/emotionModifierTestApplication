@@ -38,4 +38,4 @@ python main.py
 
 ### Important consideration
 
-If the image does not change or the same images are generated repeatedly, it may indicate that the OpenAI token has expired. In this case, it will be necessary to renew the token to continue using the image generation functionality.
+If the image does not change or the same images are generated repeatedly, it may indicate that the OpenAI token has expired. In this case, it will be necessary to renew the token to continue using the image generation functionality. If you wish to use the trial application and experience difficulties in loading images, we recommend that you contact us at the following addresses: estefany.castro@correounivalle.edu.co or hurtado.valentina@correounivalle.edu.co
